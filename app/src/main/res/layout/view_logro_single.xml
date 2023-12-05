@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="359dp"
+    android:layout_height="80dp"
+    android:backgroundTint="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:backgroundTintMode="add"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nombreSingleLogro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombreLogro"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/DescripcionSingleLogro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/DescripcionLogro" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_editar"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:background="#22C8DD"
+                app:srcCompat="@drawable/ic_option_edit" />
+
+            <ImageView
+                android:id="@+id/btn_eliminar"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="#F64040"
+                android:backgroundTint="#F64040"
+                app:srcCompat="@drawable/ic_option_delete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_mapa"
+            android:title="@string/menu_mapa" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_perfil"
+            android:title="@string/menu_perfil" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_logros"
+            android:title="@string/menu_logros" />
+        <item
+            android:id="@+id/nav_LugaresHistoricos"
+            android:icon="@drawable/ic_menu_lugar"
+            android:title="@string/menu_lugares" />
+
+    </group>
+</menu>

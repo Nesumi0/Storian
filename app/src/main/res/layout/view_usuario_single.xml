@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="359dp"
+    android:layout_height="200dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="351dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#C82C2C"
+        android:backgroundTintMode="add"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="350dp"
+            android:background="#FFFFFF"
+            android:orientation="vertical"
+            tools:ignore="UselessParent,VisualLintBounds">
+
+            <TextView
+                android:id="@+id/nombreSingleLogro"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="@string/NombreU"
+                android:text="@string/NombreU"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/DescripcionSingleLogro"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="@string/ApellidoU"
+                android:text="@string/ApellidoU" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="179dp"
+                android:layout_height="101dp"
+                app:srcCompat="@drawable/logoinacap"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/btn_eliminar"
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:background="#DD6262"
+                android:backgroundTint="#F63030"
+                android:src="@drawable/ic_option_delete"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

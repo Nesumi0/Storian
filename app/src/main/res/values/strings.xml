@@ -1,0 +1,56 @@
+<resources>
+    // Registro Activity//
+    <string name="app_name">Storian</string>
+    <string name="btn_registro">Registrarme</string>
+    <string name="Imagen">Logo</string>
+    <string name="nombre">Nombre</string>
+    <string name="Ciudad">Ciudad</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Edad">Edad</string>
+    <string name="CorreoElectronico">CorreoElectronico</string>
+    <string name="FechaNac">Fecha Nacimiento</string>
+
+    // Login Activity //
+    <string name="password">Contraseña</string>
+    <string name="Correo">CorreoElectronico</string>
+    <string name="Logeo">Ingresar</string>
+    <string name="Register">Registrate!</string>
+
+    // Prueba activity //
+    <string name="Texto">Salio bien jefe</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Cerrar Sesion</string>
+    //Menu inicio//
+    <string name="menu_mapa">Mapa</string>
+    <string name="menu_perfil">Perfil Usuario</string>
+    <string name="menu_logros">Logros</string>
+    <string name="menu_lugares">Lugares Historicos</string>
+    <string name="menu_logout">Cerrar sesion</string>
+
+    //admin view select//
+    <string name="btn_lugares">Lugares</string>
+    <string name="btn_usuarios">Usuarios</string>
+    <string name="btn_addL">AgregarLugar</string>
+    <string name="btn_deleteL">Eliminar Lugar</string>
+    <string name="btn_viewL">Ver Lugares</string>
+    <string name="btn_updateL">Actualizar Lugares</string>
+    <string name="txt_nombreLA">Nombre </string>
+    <string name="txt_reseñaLA">Reseña </string>
+    <string name="txt_nameLogro">Nombre Logro </string>
+    <string name="txt_logro">Descripcion Logro </string>
+    <string name="btn_add">Agregar</string>
+    <string name="btn_addl">Agregar Logro</string>
+
+    //view_lugar_single--view_usuario_single-view_logro_single//
+    <string name="NombreL">Nombre</string>
+    <string name="ReseñaL">Reseña</string>
+    <string name="ApellidoU">Apellido</string>
+    <string name="NombreU">Nombre</string>
+    <string name="btn_logross">Logros</string>
+    <string name="nombreLogro">Nombre </string>
+    <string name="DescripcionLogro">Descripcion </string>
+
+</resources>

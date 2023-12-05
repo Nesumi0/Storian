@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registroActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="373dp"
+        android:layout_height="364dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="145dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="#FAEDED"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <EditText
+                android:id="@+id/nomb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/nombre"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#504242"
+                tools:ignore="TextFields" />
+
+            <EditText
+                android:id="@+id/Apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Apellido"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#504242" />
+
+            <EditText
+                android:id="@+id/Edad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Edad"
+                android:inputType="number"
+                android:minHeight="48dp"
+                android:textColorHint="#504242" />
+
+            <EditText
+                android:id="@+id/Ciudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/Ciudad"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textColorHint="#504242" />
+
+            <EditText
+                android:id="@+id/FechaNac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/FechaNac"
+                android:inputType="date"
+                android:minHeight="48dp"
+                android:textColorHint="#546E7A" />
+
+            <EditText
+                android:id="@+id/CorreoElectronico"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/CorreoElectronico"
+                android:inputType="textEmailAddress"
+                android:minHeight="48dp"
+                android:textColorHint="#504242" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btn_registro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#BC4444"
+                android:hint="@string/btn_registro"
+                android:minHeight="48dp"
+                android:textColorHighlight="#604D4D"
+                android:textColorHint="#FDFDFD"
+                android:textColorLink="#E40505"
+                app:rippleColor="#A873E3"
+                tools:ignore="VisualLintButtonSize" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="217dp"
+        android:layout_height="101dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/Imagen"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logoinacap" />
+</androidx.constraintlayout.widget.ConstraintLayout>
